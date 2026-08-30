@@ -1,52 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domain For Sale</title>
-    <style>
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: #ffffff; color: #222; display: flex; 
-            justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center;
-        }
-        .container { padding: 20px; max-width: 450px; width: 100%; }
-        h1 { font-size: clamp(32px, 8vw, 48px); margin-bottom: 10px; letter-spacing: -1.5px; color: #1a1a1a; }
-        .status { text-transform: uppercase; letter-spacing: 2px; font-size: 12px; color: #007bff; font-weight: 700; margin-bottom: 30px; display: block; }
-        p { font-size: 18px; color: #666; margin-bottom: 40px; }
-        
-        .contact-group { margin-bottom: 25px; text-align: center; }
-        .label { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 5px; }
-        .method { font-size: 20px; color: #000; text-decoration: none; font-weight: 500; transition: 0.2s; }
-        .method:hover { color: #007bff; }
-        
-        .whatsapp-btn {
-            display: inline-block; margin-top: 10px; padding: 12px 24px; 
-            background-color: #25D366; color: white; text-decoration: none; 
-            border-radius: 30px; font-weight: bold; font-size: 16px; transition: 0.3s;
-        }
-        .whatsapp-btn:hover { background-color: #128C7E; transform: translateY(-2px); }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b5b34">
+  <meta name="description" content="Live fixtures, results, season leaders and squad information for Jamaica Kingsmen in CPL 2026.">
+  <meta property="og:title" content="Jamaica Kingsmen | Rule the Crease">
+  <meta property="og:description" content="Follow Jamaica Kingsmen through their debut CPL campaign.">
+  <meta property="og:type" content="website">
+  <title>Jamaica Kingsmen | CPL 2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <span class="status">Premium Asset Available</span>
-        <h1>jamaicakingsmen.com</h1>
-        <p>This domain is available for immediate acquisition.</p>
-        
-        <div class="contact-group">
-            <span class="label">Email Inquiry</span>
-            <a href="mailto:sthmzlh@gmail.com" class="method">sthmzlh@gmail.com</a>
-        </div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Jamaica Kingsmen home">
+      <span class="crest">JK</span>
+      <span><b>Jamaica</b><em>Kingsmen</em></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#fixtures">Fixtures</a>
+      <a href="#stats">Stats</a>
+      <a href="#squad">Squad</a>
+    </nav>
+    <a class="live-link" href="https://www.windiescricket.com/results/" target="_blank" rel="noreferrer">Official scores <span>↗</span></a>
+  </header>
 
-        <div class="contact-group">
-            <span class="label">Direct Call</span>
-            <a href="tel:+923312121593" class="method">+92 331 2121593</a>
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Kingston, Jamaica · CPL 2026</p>
+        <h1><span>Rule the</span><strong>Crease.</strong></h1>
+        <p class="hero-intro">A new era of Jamaican cricket. Every result, run and wicket—refreshed automatically throughout the season.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#fixtures">Latest results <span>↓</span></a>
+          <a class="button ghost" href="#stats">Season leaders</a>
         </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true"><span class="crown">♛</span><span class="monogram">JK</span><span class="since">EST. 2026</span></div>
 
-        <div class="contact-group">
-            <a href="https://wa.me/923312121593" class="whatsapp-btn">Message on WhatsApp</a>
+      <aside class="next-match" aria-label="Next match">
+        <div class="card-kicker"><span class="pulse"></span> Next match</div>
+        <div class="match-date"><strong id="next-day">—</strong><span id="next-month">LOADING</span></div>
+        <div class="versus">
+          <div><span class="mini-badge" id="next-opponent-code">TBC</span><p id="next-opponent">Loading fixture</p></div>
+          <em>VS</em>
+          <div><span class="mini-badge kingsmen">JKM</span><p>Jamaica<br><b>Kingsmen</b></p></div>
         </div>
-    </div>
+        <div class="match-meta"><span id="next-time">—</span><span id="next-venue">—</span></div>
+      </aside>
+    </section>
+
+    <section class="score-strip" aria-label="Season summary">
+      <div><span>2026 season</span><strong id="played">— <small>played</small></strong></div>
+      <div><span>Record</span><strong id="record">— <small>W–L</small></strong></div>
+      <div><span>Highest total</span><strong id="highest-total">—</strong></div>
+      <div><span>Data status</span><strong class="live-state"><i></i> Live</strong></div>
+    </section>
+
+    <section class="section fixtures" id="fixtures">
+      <div class="section-heading">
+        <div><p class="eyebrow dark"><span></span> Match centre</p><h2>Recent results</h2></div>
+        <p class="section-note">Automatically refreshed<br><span id="updated-at">Checking latest data…</span></p>
+      </div>
+      <div class="results-list" id="results-list" aria-live="polite"></div>
+    </section>
+
+    <section class="stats-section" id="stats">
+      <div class="section stats-intro">
+        <p class="eyebrow"><span></span> Numbers that matter</p>
+        <div class="stats-title"><h2>Season<br><i>leaders.</i></h2><p>Current batting and bowling leaders, recalculated after the official score feed publishes each completed match.</p></div>
+      </div>
+      <div class="leader-grid section">
+        <div class="leader-card"><div class="leader-head"><span>Batting</span><b>Most runs</b></div><div id="batting-leaders"></div></div>
+        <div class="leader-card gold-card"><div class="leader-head"><span>Bowling</span><b>Most wickets</b></div><div id="bowling-leaders"></div></div>
+      </div>
+    </section>
+
+    <section class="section live-data">
+      <div class="live-orbit" aria-hidden="true"><span>2H</span><small>REFRESH</small></div>
+      <div class="live-copy"><p class="eyebrow dark"><span></span> Always current</p><h2>Built to follow <i>every match.</i></h2><p>A scheduled updater checks official Cricket West Indies results, upcoming fixtures and current player totals every two hours. If a source is temporarily unavailable, the last verified update stays online.</p><a href="https://www.windiescricket.com/results/" target="_blank" rel="noreferrer">View official match records <span>↗</span></a></div>
+    </section>
+
+    <section class="squad-section" id="squad">
+      <div class="section section-heading light"><div><p class="eyebrow"><span></span> The squad</p><h2>Built for the Caribbean.</h2></div><p class="section-note">Local firepower.<br>Global experience.</p></div>
+      <div class="squad-marquee" id="squad-list" aria-label="Jamaica Kingsmen squad"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="crest">JK</span><div><b>One island.</b><strong>One crown.</strong></div></div>
+    <div class="footer-links"><a href="#fixtures">Fixtures</a><a href="#stats">Stats</a><a href="#squad">Squad</a></div>
+    <p>Independent supporter site · Automated from public cricket records.<br>Not affiliated with CPL or Jamaica Kingsmen.</p>
+  </footer>
+
+  <noscript><p class="noscript">JavaScript is required to display the latest match data.</p></noscript>
 </body>
 </html>
+
