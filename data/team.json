@@ -1,0 +1,332 @@
+{
+  "season": 2026,
+  "summary": {
+    "played": 8,
+    "wins": 4,
+    "losses": 4,
+    "noResults": 0,
+    "highestTotal": "201/9"
+  },
+  "recentResults": [
+    {
+      "date": "2026-08-29",
+      "displayDate": "29 Aug",
+      "year": 2026,
+      "opponent": "Trinbago Knight Riders",
+      "jamaicaScore": "127/3 (14.4/20 ov, target: 181)",
+      "opponentScore": "180/6 (20/20 ov)",
+      "result": "Jamaica Kingsmen won by 7 runs (DLS Method)",
+      "outcome": "W",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/4d8fb16f-fbd8-4cea-a8a5-e6b48e58c11a"
+    },
+    {
+      "date": "2026-08-27",
+      "displayDate": "27 Aug",
+      "year": 2026,
+      "opponent": "St Kitts & Nevis Patriots",
+      "jamaicaScore": "182/7 (20/20 ov)",
+      "opponentScore": "171/6 (20/20 ov, target: 183)",
+      "result": "Jamaica Kingsmen won by 11 runs",
+      "outcome": "W",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/5a46d600-d999-4d55-87b2-56f4a6bab947"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "21 Aug",
+      "year": 2026,
+      "opponent": "Saint Lucia Kings",
+      "jamaicaScore": "169/9 (20/20 ov)",
+      "opponentScore": "171/4 (18.2/20 ov)",
+      "result": "Saint Lucia Kings won by 6 wickets with 10 balls remaining",
+      "outcome": "L",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/d08511f2-794d-458e-b954-2d02095e7f2a"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "18 Aug",
+      "year": 2026,
+      "opponent": "St Kitts & Nevis Patriots",
+      "jamaicaScore": "181/6 (20/20 ov)",
+      "opponentScore": "130/10 (18/20 ov, target: 182)",
+      "result": "Jamaica Kingsmen won by 51 runs",
+      "outcome": "W",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/9937ad32-662f-4f99-866b-cae277f97a4f"
+    },
+    {
+      "date": "2026-08-15",
+      "displayDate": "15 Aug",
+      "year": 2026,
+      "opponent": "Trinbago Knight Riders",
+      "jamaicaScore": "183/5 (18.4/20 ov)",
+      "opponentScore": "182/6 (20/20 ov)",
+      "result": "Jamaica Kingsmen won by 5 wickets with 8 balls remaining",
+      "outcome": "W",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/088c2f83-f5db-477f-9011-477573c953c1"
+    }
+  ],
+  "upcomingFixtures": [
+    {
+      "date": "2026-09-04",
+      "displayDate": "Fri 04 Sep",
+      "opponent": "Guyana Amazon Warriors",
+      "time": "19:00 AST (23:00 UTC)",
+      "venue": "Guyana National Stadium, Providence",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/806198b5-0128-4d96-a67c-888d19b486d6"
+    },
+    {
+      "date": "2026-09-12",
+      "displayDate": "Sat 12 Sep",
+      "opponent": "Barbados Tridents",
+      "time": "20:00 AST (00:00 UTC)",
+      "venue": "Kensington Oval, Bridgetown",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/c9612104-7360-4327-a229-f9db3595d07a"
+    }
+  ],
+  "battingLeaders": [
+    {
+      "name": "Rovman Powell",
+      "matches": 8,
+      "runs": 213,
+      "strikeRate": 134,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 4
+    },
+    {
+      "name": "Keacy Carty",
+      "matches": 8,
+      "runs": 161,
+      "strikeRate": 107.3,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 1
+    },
+    {
+      "name": "Andre Russell",
+      "matches": 6,
+      "runs": 143,
+      "strikeRate": 160.7,
+      "wickets": 9,
+      "economy": 7.52,
+      "catches": 3
+    }
+  ],
+  "bowlingLeaders": [
+    {
+      "name": "Hunain Shah",
+      "matches": 8,
+      "runs": 5,
+      "strikeRate": 62.5,
+      "wickets": 11,
+      "economy": 7.48,
+      "catches": 4
+    },
+    {
+      "name": "Andre Russell",
+      "matches": 6,
+      "runs": 143,
+      "strikeRate": 160.7,
+      "wickets": 9,
+      "economy": 7.52,
+      "catches": 3
+    },
+    {
+      "name": "Keemo Paul",
+      "matches": 8,
+      "runs": 121,
+      "strikeRate": 157.1,
+      "wickets": 9,
+      "economy": 8.31,
+      "catches": 4
+    }
+  ],
+  "squad": [
+    {
+      "name": "Andre Russell",
+      "matches": 6,
+      "runs": 143,
+      "strikeRate": 160.7,
+      "wickets": 9,
+      "economy": 7.52,
+      "catches": 3
+    },
+    {
+      "name": "Hassan Khan",
+      "matches": 6,
+      "runs": 33,
+      "strikeRate": 110,
+      "wickets": 3,
+      "economy": 6.52,
+      "catches": 5
+    },
+    {
+      "name": "Hunain Shah",
+      "matches": 8,
+      "runs": 5,
+      "strikeRate": 62.5,
+      "wickets": 11,
+      "economy": 7.48,
+      "catches": 4
+    },
+    {
+      "name": "Jeavor Royal",
+      "matches": 1,
+      "runs": 0,
+      "strikeRate": 0,
+      "wickets": 0,
+      "economy": 8.77,
+      "catches": 0
+    },
+    {
+      "name": "Jediah Blades",
+      "matches": 4,
+      "runs": 1,
+      "strikeRate": 20,
+      "wickets": 4,
+      "economy": 8.88,
+      "catches": 0
+    },
+    {
+      "name": "Keacy Carty",
+      "matches": 8,
+      "runs": 161,
+      "strikeRate": 107.3,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 1
+    },
+    {
+      "name": "Keemo Paul",
+      "matches": 8,
+      "runs": 121,
+      "strikeRate": 157.1,
+      "wickets": 9,
+      "economy": 8.31,
+      "catches": 4
+    },
+    {
+      "name": "Kelvin Pitman",
+      "matches": 0,
+      "runs": 0,
+      "strikeRate": 0,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 0
+    },
+    {
+      "name": "Kirk McKenzie",
+      "matches": 7,
+      "runs": 126,
+      "strikeRate": 151.8,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 1
+    },
+    {
+      "name": "Maaz Sadaqat",
+      "matches": 2,
+      "runs": 14,
+      "strikeRate": 87.5,
+      "wickets": 0,
+      "economy": 3,
+      "catches": 1
+    },
+    {
+      "name": "Odean Smith",
+      "matches": 5,
+      "runs": 34,
+      "strikeRate": 170,
+      "wickets": 0,
+      "economy": 10.78,
+      "catches": 3
+    },
+    {
+      "name": "Reeza Hendricks",
+      "matches": 5,
+      "runs": 140,
+      "strikeRate": 135.9,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 1
+    },
+    {
+      "name": "Romaine Morris",
+      "matches": 0,
+      "runs": 0,
+      "strikeRate": 0,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 0
+    },
+    {
+      "name": "Rovman Powell",
+      "matches": 8,
+      "runs": 213,
+      "strikeRate": 134,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 4
+    },
+    {
+      "name": "Saim Ayub",
+      "matches": 3,
+      "runs": 127,
+      "strikeRate": 160.8,
+      "wickets": 1,
+      "economy": 7.66,
+      "catches": 1
+    },
+    {
+      "name": "Shaqkere Parris",
+      "matches": 1,
+      "runs": 1,
+      "strikeRate": 20,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 0
+    },
+    {
+      "name": "Shayan Jahangir",
+      "matches": 4,
+      "runs": 16,
+      "strikeRate": 59.3,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 2
+    },
+    {
+      "name": "Tayyab Arif",
+      "matches": 0,
+      "runs": 0,
+      "strikeRate": 0,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 0
+    },
+    {
+      "name": "Usman Khan",
+      "matches": 4,
+      "runs": 51,
+      "strikeRate": 137.8,
+      "wickets": 0,
+      "economy": 0,
+      "catches": 4
+    },
+    {
+      "name": "Vitel Lawes",
+      "matches": 8,
+      "runs": 48,
+      "strikeRate": 141.2,
+      "wickets": 8,
+      "economy": 9.9,
+      "catches": 0
+    }
+  ],
+  "sources": {
+    "results": "https://www.windiescricket.com/results/",
+    "fixtures": "https://www.windiescricket.com/fixtures/",
+    "squad": "https://statz.ai/cricket/teams/jamaica-kingsmen/squad"
+  },
+  "updatedAt": "2026-08-30T15:06:07.843Z"
+}
+
