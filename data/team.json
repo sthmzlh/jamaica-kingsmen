@@ -1,13 +1,24 @@
 {
   "season": 2026,
   "summary": {
-    "played": 8,
+    "played": 9,
     "wins": 4,
-    "losses": 4,
+    "losses": 5,
     "noResults": 0,
     "highestTotal": "201/9"
   },
   "recentResults": [
+    {
+      "date": "2026-09-04",
+      "displayDate": "04 Sep",
+      "year": 2026,
+      "opponent": "Guyana Amazon Warriors",
+      "jamaicaScore": "159/7 (20/20 ov)",
+      "opponentScore": "160/2 (17.2/20 ov)",
+      "result": "Guyana Amazon Warriors won by 8 wickets with 16 balls remaining",
+      "outcome": "L",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/806198b5-0128-4d96-a67c-888d19b486d6"
+    },
     {
       "date": "2026-08-29",
       "displayDate": "29 Aug",
@@ -51,28 +62,9 @@
       "result": "Jamaica Kingsmen won by 51 runs",
       "outcome": "W",
       "matchCentre": "https://matchcentre.windiescricket.com/match/9937ad32-662f-4f99-866b-cae277f97a4f"
-    },
-    {
-      "date": "2026-08-15",
-      "displayDate": "15 Aug",
-      "year": 2026,
-      "opponent": "Trinbago Knight Riders",
-      "jamaicaScore": "183/5 (18.4/20 ov)",
-      "opponentScore": "182/6 (20/20 ov)",
-      "result": "Jamaica Kingsmen won by 5 wickets with 8 balls remaining",
-      "outcome": "W",
-      "matchCentre": "https://matchcentre.windiescricket.com/match/088c2f83-f5db-477f-9011-477573c953c1"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-09-04",
-      "displayDate": "Fri 04 Sep",
-      "opponent": "Guyana Amazon Warriors",
-      "time": "19:00 AST (23:00 UTC)",
-      "venue": "Guyana National Stadium, Providence",
-      "matchCentre": "https://matchcentre.windiescricket.com/match/806198b5-0128-4d96-a67c-888d19b486d6"
-    },
     {
       "date": "2026-09-12",
       "displayDate": "Sat 12 Sep",
@@ -85,18 +77,18 @@
   "battingLeaders": [
     {
       "name": "Rovman Powell",
-      "matches": 8,
+      "matches": 9,
       "runs": 213,
-      "strikeRate": 134,
+      "strikeRate": 133.1,
       "wickets": 0,
       "economy": 0,
-      "catches": 4
+      "catches": 5
     },
     {
       "name": "Keacy Carty",
-      "matches": 8,
-      "runs": 161,
-      "strikeRate": 107.3,
+      "matches": 9,
+      "runs": 179,
+      "strikeRate": 110.5,
       "wickets": 0,
       "economy": 0,
       "catches": 1
@@ -114,11 +106,11 @@
   "bowlingLeaders": [
     {
       "name": "Hunain Shah",
-      "matches": 8,
+      "matches": 9,
       "runs": 5,
       "strikeRate": 62.5,
-      "wickets": 11,
-      "economy": 7.48,
+      "wickets": 12,
+      "economy": 7.75,
       "catches": 4
     },
     {
@@ -132,11 +124,11 @@
     },
     {
       "name": "Keemo Paul",
-      "matches": 8,
-      "runs": 121,
-      "strikeRate": 157.1,
+      "matches": 9,
+      "runs": 136,
+      "strikeRate": 147.8,
       "wickets": 9,
-      "economy": 8.31,
+      "economy": 8.5,
       "catches": 4
     }
   ],
@@ -152,20 +144,20 @@
     },
     {
       "name": "Hassan Khan",
-      "matches": 6,
-      "runs": 33,
-      "strikeRate": 110,
+      "matches": 7,
+      "runs": 95,
+      "strikeRate": 161,
       "wickets": 3,
-      "economy": 6.52,
+      "economy": 6.21,
       "catches": 5
     },
     {
       "name": "Hunain Shah",
-      "matches": 8,
+      "matches": 9,
       "runs": 5,
       "strikeRate": 62.5,
-      "wickets": 11,
-      "economy": 7.48,
+      "wickets": 12,
+      "economy": 7.75,
       "catches": 4
     },
     {
@@ -179,29 +171,29 @@
     },
     {
       "name": "Jediah Blades",
-      "matches": 4,
+      "matches": 5,
       "runs": 1,
       "strikeRate": 20,
       "wickets": 4,
-      "economy": 8.88,
+      "economy": 8.97,
       "catches": 0
     },
     {
       "name": "Keacy Carty",
-      "matches": 8,
-      "runs": 161,
-      "strikeRate": 107.3,
+      "matches": 9,
+      "runs": 179,
+      "strikeRate": 110.5,
       "wickets": 0,
       "economy": 0,
       "catches": 1
     },
     {
       "name": "Keemo Paul",
-      "matches": 8,
-      "runs": 121,
-      "strikeRate": 157.1,
+      "matches": 9,
+      "runs": 136,
+      "strikeRate": 147.8,
       "wickets": 9,
-      "economy": 8.31,
+      "economy": 8.5,
       "catches": 4
     },
     {
@@ -215,27 +207,27 @@
     },
     {
       "name": "Kirk McKenzie",
-      "matches": 7,
-      "runs": 126,
-      "strikeRate": 151.8,
+      "matches": 8,
+      "runs": 127,
+      "strikeRate": 147.7,
       "wickets": 0,
       "economy": 0,
       "catches": 1
     },
     {
       "name": "Maaz Sadaqat",
-      "matches": 2,
-      "runs": 14,
-      "strikeRate": 87.5,
-      "wickets": 0,
-      "economy": 3,
+      "matches": 3,
+      "runs": 49,
+      "strikeRate": 98,
+      "wickets": 1,
+      "economy": 4.5,
       "catches": 1
     },
     {
       "name": "Odean Smith",
-      "matches": 5,
-      "runs": 34,
-      "strikeRate": 170,
+      "matches": 6,
+      "runs": 47,
+      "strikeRate": 138.2,
       "wickets": 0,
       "economy": 10.78,
       "catches": 3
@@ -260,12 +252,12 @@
     },
     {
       "name": "Rovman Powell",
-      "matches": 8,
+      "matches": 9,
       "runs": 213,
-      "strikeRate": 134,
+      "strikeRate": 133.1,
       "wickets": 0,
       "economy": 0,
-      "catches": 4
+      "catches": 5
     },
     {
       "name": "Saim Ayub",
@@ -305,20 +297,20 @@
     },
     {
       "name": "Usman Khan",
-      "matches": 4,
-      "runs": 51,
-      "strikeRate": 137.8,
+      "matches": 5,
+      "runs": 61,
+      "strikeRate": 124.5,
       "wickets": 0,
       "economy": 0,
       "catches": 4
     },
     {
       "name": "Vitel Lawes",
-      "matches": 8,
+      "matches": 9,
       "runs": 48,
       "strikeRate": 141.2,
       "wickets": 8,
-      "economy": 9.9,
+      "economy": 10.13,
       "catches": 0
     }
   ],
@@ -327,5 +319,5 @@
     "fixtures": "https://www.windiescricket.com/fixtures/",
     "squad": "https://statz.ai/cricket/teams/jamaica-kingsmen/squad"
   },
-  "updatedAt": "2026-08-30T15:06:07.843Z"
+  "updatedAt": "2026-09-05T04:36:44.698Z"
 }
