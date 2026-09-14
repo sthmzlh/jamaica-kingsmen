@@ -64,7 +64,16 @@
       "matchCentre": "https://matchcentre.windiescricket.com/match/d08511f2-794d-458e-b954-2d02095e7f2a"
     }
   ],
-  "upcomingFixtures": [],
+  "upcomingFixtures": [
+    {
+      "date": "2026-09-16",
+      "displayDate": "Wed 16 Sep",
+      "opponent": "Barbados Tridents",
+      "time": "19:00 AST (23:00 UTC)",
+      "venue": "Kensington Oval, Bridgetown",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/5e69d887-2503-4da6-a6d5-22e35d62f59e"
+    }
+  ],
   "battingLeaders": [
     {
       "name": "Rovman Powell",
@@ -310,5 +319,5 @@
     "fixtures": "https://www.windiescricket.com/fixtures/",
     "squad": "https://statz.ai/cricket/teams/jamaica-kingsmen/squad"
   },
-  "updatedAt": "2026-09-13T11:59:07.514Z"
+  "updatedAt": "2026-09-14T05:07:28.313Z"
 }
