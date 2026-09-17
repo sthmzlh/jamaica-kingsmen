@@ -1,13 +1,24 @@
 {
   "season": 2026,
   "summary": {
-    "played": 10,
-    "wins": 4,
+    "played": 11,
+    "wins": 5,
     "losses": 6,
     "noResults": 0,
     "highestTotal": "201/9"
   },
   "recentResults": [
+    {
+      "date": "2026-09-16",
+      "displayDate": "16 Sep",
+      "year": 2026,
+      "opponent": "Barbados Tridents",
+      "jamaicaScore": "145/1 (14.1/20 ov)",
+      "opponentScore": "144/6 (20/20 ov)",
+      "result": "Jamaica Kingsmen won by 9 wickets with 35 balls remaining",
+      "outcome": "W",
+      "matchCentre": "https://matchcentre.windiescricket.com/match/5e69d887-2503-4da6-a6d5-22e35d62f59e"
+    },
     {
       "date": "2026-09-12",
       "displayDate": "12 Sep",
@@ -51,38 +62,36 @@
       "result": "Jamaica Kingsmen won by 11 runs",
       "outcome": "W",
       "matchCentre": "https://matchcentre.windiescricket.com/match/5a46d600-d999-4d55-87b2-56f4a6bab947"
-    },
-    {
-      "date": "2026-08-21",
-      "displayDate": "21 Aug",
-      "year": 2026,
-      "opponent": "Saint Lucia Kings",
-      "jamaicaScore": "169/9 (20/20 ov)",
-      "opponentScore": "171/4 (18.2/20 ov)",
-      "result": "Saint Lucia Kings won by 6 wickets with 10 balls remaining",
-      "outcome": "L",
-      "matchCentre": "https://matchcentre.windiescricket.com/match/d08511f2-794d-458e-b954-2d02095e7f2a"
     }
   ],
   "upcomingFixtures": [
     {
-      "date": "2026-09-16",
-      "displayDate": "Wed 16 Sep",
-      "opponent": "Barbados Tridents",
+      "date": "2026-09-18",
+      "displayDate": "Fri 18 Sep",
+      "opponent": "None",
       "time": "19:00 AST (23:00 UTC)",
       "venue": "Kensington Oval, Bridgetown",
-      "matchCentre": "https://matchcentre.windiescricket.com/match/5e69d887-2503-4da6-a6d5-22e35d62f59e"
+      "matchCentre": "https://matchcentre.windiescricket.com/match/18b0c883-0a0f-4e91-8efb-913d9009670c"
     }
   ],
   "battingLeaders": [
     {
       "name": "Rovman Powell",
-      "matches": 10,
+      "matches": 11,
       "runs": 221,
       "strikeRate": 128.5,
       "wickets": 0,
-      "economy": 0,
-      "catches": 5
+      "economy": 6,
+      "catches": 6
+    },
+    {
+      "name": "Maaz Sadaqat",
+      "matches": 5,
+      "runs": 208,
+      "strikeRate": 156.4,
+      "wickets": 1,
+      "economy": 4.5,
+      "catches": 1
     },
     {
       "name": "Keacy Carty",
@@ -92,72 +101,63 @@
       "wickets": 0,
       "economy": 0,
       "catches": 2
-    },
-    {
-      "name": "Andre Russell",
-      "matches": 7,
-      "runs": 153,
-      "strikeRate": 164.5,
-      "wickets": 10,
-      "economy": 7.4,
-      "catches": 3
     }
   ],
   "bowlingLeaders": [
     {
       "name": "Hunain Shah",
-      "matches": 10,
+      "matches": 11,
       "runs": 5,
       "strikeRate": 62.5,
-      "wickets": 14,
-      "economy": 7.51,
+      "wickets": 15,
+      "economy": 7.33,
       "catches": 4
     },
     {
       "name": "Andre Russell",
-      "matches": 7,
+      "matches": 8,
       "runs": 153,
       "strikeRate": 164.5,
-      "wickets": 10,
-      "economy": 7.4,
+      "wickets": 12,
+      "economy": 7.61,
       "catches": 3
     },
     {
       "name": "Keemo Paul",
-      "matches": 10,
+      "matches": 11,
       "runs": 141,
       "strikeRate": 135.6,
       "wickets": 10,
-      "economy": 8.46,
+      "economy": 8.58,
       "catches": 5
     }
   ],
   "squad": [
     {
       "name": "Andre Russell",
-      "matches": 7,
+      "matches": 8,
       "runs": 153,
       "strikeRate": 164.5,
-      "wickets": 10,
-      "economy": 7.4,
+      "wickets": 12,
+      "economy": 7.61,
       "catches": 3
     },
     {
       "name": "Hassan Khan",
-      "matches": 8,
+      "matches": 9,
       "runs": 111,
       "strikeRate": 156.3,
-      "wickets": 4,
-      "economy": 6.19,
+      "wickets": 5,
+      "economy": 5.84,
       "catches": 6
     },
     {
       "name": "Hunain Shah",
-      "matches": 10,
+      "matches": 11,
       "runs": 5,
       "strikeRate": 62.5,
-      "wickets": 14,
-      "economy": 7.51,
+      "wickets": 15,
+      "economy": 7.33,
       "catches": 4
     },
     {
@@ -189,11 +189,11 @@
     },
     {
       "name": "Keemo Paul",
-      "matches": 10,
+      "matches": 11,
       "runs": 141,
       "strikeRate": 135.6,
       "wickets": 10,
-      "economy": 8.46,
+      "economy": 8.58,
       "catches": 5
     },
     {
@@ -207,18 +207,18 @@
     },
     {
       "name": "Kirk McKenzie",
-      "matches": 9,
-      "runs": 138,
-      "strikeRate": 139.4,
+      "matches": 10,
+      "runs": 160,
+      "strikeRate": 120.3,
       "wickets": 0,
       "economy": 0,
       "catches": 1
     },
     {
       "name": "Maaz Sadaqat",
-      "matches": 4,
-      "runs": 96,
-      "strikeRate": 114.3,
+      "matches": 5,
+      "runs": 208,
+      "strikeRate": 156.4,
       "wickets": 1,
       "economy": 4.5,
       "catches": 1
@@ -243,29 +243,29 @@
     },
     {
       "name": "Romaine Morris",
-      "matches": 0,
+      "matches": 1,
       "runs": 0,
       "strikeRate": 0,
       "wickets": 0,
       "economy": 0,
-      "catches": 0
+      "catches": 2
     },
     {
       "name": "Rovman Powell",
-      "matches": 10,
+      "matches": 11,
       "runs": 221,
       "strikeRate": 128.5,
       "wickets": 0,
-      "economy": 0,
-      "catches": 5
+      "economy": 6,
+      "catches": 6
     },
     {
       "name": "Saim Ayub",
-      "matches": 3,
-      "runs": 127,
-      "strikeRate": 160.8,
-      "wickets": 1,
-      "economy": 7.66,
+      "matches": 4,
+      "runs": 130,
+      "strikeRate": 160.5,
+      "wickets": 2,
+      "economy": 7.43,
       "catches": 1
     },
     {
@@ -306,11 +306,11 @@
     },
     {
       "name": "Vitel Lawes",
-      "matches": 10,
+      "matches": 11,
       "runs": 53,
       "strikeRate": 143.2,
       "wickets": 9,
-      "economy": 9.62,
+      "economy": 9.45,
       "catches": 0
     }
   ],
@@ -319,5 +319,5 @@
     "fixtures": "https://www.windiescricket.com/fixtures/",
     "squad": "https://statz.ai/cricket/teams/jamaica-kingsmen/squad"
   },
-  "updatedAt": "2026-09-14T05:07:28.313Z"
+  "updatedAt": "2026-09-17T07:45:59.217Z"
 }
