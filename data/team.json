@@ -68,7 +68,7 @@
     {
       "date": "2026-09-18",
       "displayDate": "Fri 18 Sep",
-      "opponent": "None",
+      "opponent": "Guyana Amazon Warriors",
       "time": "19:00 AST (23:00 UTC)",
       "venue": "Kensington Oval, Bridgetown",
       "matchCentre": "https://matchcentre.windiescricket.com/match/18b0c883-0a0f-4e91-8efb-913d9009670c"
@@ -319,5 +319,5 @@
     "fixtures": "https://www.windiescricket.com/fixtures/",
     "squad": "https://statz.ai/cricket/teams/jamaica-kingsmen/squad"
   },
-  "updatedAt": "2026-09-17T07:45:59.217Z"
+  "updatedAt": "2026-09-18T11:24:13.921Z"
 }
